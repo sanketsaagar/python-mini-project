@@ -1,10 +1,11 @@
 import random
-
+#Begining of output
 print("This is a dice stimulator")
 x = "y"
+#start of loop
 while x == "y":
     number = random.randint(1,6)
-
+#condition
     if number == 1:
         print("===========")
         print("|         |")
@@ -46,5 +47,6 @@ while x == "y":
         print("| O     O |")
         print("| O     O |")
         print("===========")
-    
+   # 
     x =  input("Press y to roll again ")
+    #this will repeat again and again
